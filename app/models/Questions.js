@@ -8,7 +8,7 @@ export class Question {
     this.wrong1 = data.incorrect_answers[0]
     this.wrong2 = data.incorrect_answers[1]
     this.wrong3 = data.incorrect_answers[2]
-    // this.options = [this.answer, this.wrong1]
+    this.options = [this.answer, this.wrong1, this.wrong2, this.wrong3]
   }
 
   get QuestionCard() {
